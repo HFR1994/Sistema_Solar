@@ -1,2 +1,271 @@
-﻿  Spacecraft.cpp
+﻿  Camera.cpp
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\camera.cpp(214): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\camera.cpp(231): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\camera.cpp(233): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\camera.cpp(235): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\camera.cpp(236): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\camera.cpp(263): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\camera.cpp(304): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\camera.cpp(332): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\camera.cpp(516): warning C4244: '/=': conversion from 'double' to 'float', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\camera.cpp(517): warning C4244: '/=': conversion from 'double' to 'float', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\camera.cpp(518): warning C4244: '/=': conversion from 'double' to 'float', possible loss of data
+  CG_Demo.cpp
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\cg_demo.cpp(39): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\cg_demo.cpp(65): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\cg_demo.cpp(101): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\cg_demo.cpp(184): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\cg_demo.cpp(185): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\cg_demo.cpp(191): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\cg_demo.cpp(192): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\cg_demo.cpp(198): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\cg_demo.cpp(199): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\cg_demo.cpp(206): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\cg_demo.cpp(207): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\cg_demo.cpp(249): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\cg_demo.cpp(250): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\cg_demo.cpp(256): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\cg_demo.cpp(257): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\cg_demo.cpp(263): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\cg_demo.cpp(264): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\cg_demo.cpp(270): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\cg_demo.cpp(271): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\cg_demo.cpp(277): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\cg_demo.cpp(278): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\cg_demo.cpp(284): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\cg_demo.cpp(285): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\cg_demo.cpp(291): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\cg_demo.cpp(292): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\cg_demo.cpp(298): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\cg_demo.cpp(299): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\cg_demo.cpp(347): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  cTexture.cpp
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\ctexture.cpp(16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: see declaration of 'fopen'
+  Function.cpp
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\function.cpp(137): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\function.cpp(137): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\function.cpp(199): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: see declaration of 'fopen'
+  glm.cpp
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(179): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(536): note: see declaration of 'strdup'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(224): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(536): note: see declaration of 'strdup'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(249): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(256): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(263): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(265): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(90): note: see declaration of 'strcat'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(274): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(536): note: see declaration of 'strdup'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(346): warning C4305: '=': truncation from 'double' to 'GLfloat'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(347): warning C4305: '=': truncation from 'double' to 'GLfloat'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(348): warning C4305: '=': truncation from 'double' to 'GLfloat'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(350): warning C4305: '=': truncation from 'double' to 'GLfloat'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(351): warning C4305: '=': truncation from 'double' to 'GLfloat'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(352): warning C4305: '=': truncation from 'double' to 'GLfloat'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(305): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(306): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(90): note: see declaration of 'strcat'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(309): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: see declaration of 'fopen'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(319): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(328): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(2263): note: see declaration of 'sscanf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(360): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(536): note: see declaration of 'strdup'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(364): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(372): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(2263): note: see declaration of 'sscanf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(374): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(536): note: see declaration of 'strdup'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(378): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(386): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(392): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(398): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(413): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(536): note: see declaration of 'strdup'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(418): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(453): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(454): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(90): note: see declaration of 'strcat'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(458): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: see declaration of 'fopen'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(511): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(542): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(2263): note: see declaration of 'sscanf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(543): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(536): note: see declaration of 'strdup'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(562): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(566): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(2263): note: see declaration of 'sscanf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(567): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(568): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(571): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(575): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(2263): note: see declaration of 'sscanf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(577): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(578): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(581): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(585): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(2263): note: see declaration of 'sscanf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(587): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(588): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(591): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(597): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(598): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(601): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(680): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(662): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(671): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(679): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(685): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(692): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(701): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(2263): note: see declaration of 'sscanf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(721): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(725): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(2263): note: see declaration of 'sscanf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(732): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(735): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(740): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(750): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(2263): note: see declaration of 'sscanf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(756): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(760): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(766): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(780): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(2263): note: see declaration of 'sscanf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(784): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(787): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(792): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(806): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(2263): note: see declaration of 'sscanf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(808): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(810): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(814): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(889): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(890): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(891): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(894): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(1095): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(1251): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(1258): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(1259): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(1309): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(1310): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(1317): warning C4305: '=': truncation from 'double' to 'GLfloat'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(1319): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(1322): warning C4305: '=': truncation from 'double' to 'GLfloat'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(1324): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(1327): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(1328): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(1403): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: see declaration of 'fopen'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(1412): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(536): note: see declaration of 'strdup'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(1525): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: see declaration of 'fopen'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(1581): warning C4477: 'fprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'GLfloat *'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(1922): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: see declaration of 'fopen'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(1943): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(2263): note: see declaration of 'sscanf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(1945): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(2263): note: see declaration of 'sscanf'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glm.cpp(1947): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(2263): note: see declaration of 'sscanf'
+  glmimg.cpp
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glmimg.cpp(146): warning C4244: '=': conversion from 'int' to 'GLfloat', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glmimg.cpp(147): warning C4244: '=': conversion from 'int' to 'GLfloat', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glmimg.cpp(28): warning C4101: 'ixPow2': unreferenced local variable
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glmimg.cpp(27): warning C4101: 'yPow2': unreferenced local variable
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glmimg.cpp(26): warning C4101: 'rdata': unreferenced local variable
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glmimg.cpp(28): warning C4101: 'iyPow2': unreferenced local variable
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glmimg.cpp(30): warning C4101: 'retval': unreferenced local variable
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\glmimg.cpp(27): warning C4101: 'xPow2': unreferenced local variable
+  Spacecraft.cpp
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\spacecraft.cpp(49): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\spacecraft.cpp(50): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  vecs.cpp
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\vecs.cpp(47): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  World.cpp
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\world.cpp(8): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\world.cpp(40): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\world.cpp(43): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\world.cpp(45): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\world.cpp(49): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\world.cpp(57): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\world.cpp(60): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\world.cpp(62): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\world.cpp(74): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\world.cpp(77): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\world.cpp(79): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\world.cpp(88): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\world.cpp(99): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\world.cpp(102): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\world.cpp(104): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\world.cpp(116): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\world.cpp(119): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\world.cpp(121): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\world.cpp(133): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\world.cpp(136): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\world.cpp(138): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\world.cpp(150): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\world.cpp(153): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\world.cpp(155): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\world.cpp(167): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\world.cpp(170): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\world.cpp(172): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\world.cpp(200): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\world.cpp(201): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\world.cpp(202): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\a01333126\desktop\cg_demo_vs2015\cg_demo\cg_demo\source\world.cpp(203): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
   CG_Demo.vcxproj -> C:\Users\A01333126\Desktop\CG_Demo_VS2015\CG_Demo\Debug\CG_Demo.exe

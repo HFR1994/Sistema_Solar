@@ -17,6 +17,7 @@ Spacecraft::Spacecraft()
 	glmFacetNormals(spacecraft);
 	glmVertexNormals(spacecraft, 45.0f);
 	angle = 2;
+	radius = 5;
 }
 
 
@@ -38,22 +39,19 @@ void Spacecraft::updatePos(float p1, float p2, float p3)
 	this->pos[2] = p3;
 }
 
-void Spacecraft::updateAngle(float p)
+void Spacecraft::update(float angulo)
 {
-	angle = p;
-}
-
-void Spacecraft::update()
-{
-	angle += 0.1f;
+	angle += angulo;
 }
 
 void Spacecraft::draw()
 {
+	float u = pos[0]*cos(360 - ((angle*3.141592) / 180)) - pos[2]*sin(360 - ((angle*3.141592) / 180));
+	float v = pos[2]*cos(360 - ((angle*3.141592) / 180)) + pos[0]*sin(360 - ((angle*3.141592) / 180));
 	glPushMatrix();
 	{
-		glTranslatef(300, 25, -30);
-		glRotatef(angle, 0, 1, 0);
+		glTranslatef(pos[0], pos[1], pos[2]);
+		glRotatef(2,0,1,0);
 		glScalef(20, 20, 20);
 		glmDraw(spacecraft, GLM_SMOOTH | GLM_TEXTURE);
 	}

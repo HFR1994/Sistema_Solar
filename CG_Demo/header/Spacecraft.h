@@ -27,11 +27,13 @@ public:
 	void updatePos(float p1, float p2, float p3);
 	void updateAngle(float p);
 
+	float radius;
+
 	GLMmodel * spacecraft;
 
 	float angle;
 
-	void update();
+	void update(float angle);
 	void draw();
 };
 

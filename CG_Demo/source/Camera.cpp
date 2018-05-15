@@ -93,6 +93,19 @@ void Camera::getDirVec(float* res){
 	res[2]=dir[2];
 }
 
+void Camera::getUpVec(float* res) {
+	res[0] = up[0];
+	res[1] = up[1];
+	res[2] = up[2];
+}
+
+void Camera::getSum(float * res)
+{
+	res[0] = pos[0] + dir[0]-35.0f;
+	res[1] = pos[1] + dir[1]-7.0f;
+	res[2] = pos[2] + dir[2]+1;
+}
+
 void Camera::setUpVec(float x, float y, float z){
 	float mag = sqrt(x*x+y*y+z*z);
 	if(mag > 0){

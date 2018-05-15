@@ -31,6 +31,10 @@ public:
 	void getPosVec(float* res);
 	void getDirVec(float* res);
 
+	void getUpVec(float * res);
+
+	void getSum(float* res);
+
 	void moveForward(float dist);
 	void moveBackward(float dist);
 	void moveRight(float dist);
