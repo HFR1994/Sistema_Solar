@@ -26,8 +26,7 @@ char bufferFPS[11];
 World* worlds;
 Spacecraft* spacecraft;
 GLfloat*	global_ambient;
-float pos[3];
-float dir[3];
+float angle;
 
 void displayText(int x, int y, char *txt);
 
@@ -36,13 +35,9 @@ void display(void) {
 
 	currentCamera->setView();
 
-	glPushMatrix();
-	{
-		spacecraft->draw();
-	}
-	glPopMatrix();
+	spacecraft->draw();
 
-	for(int i=0;i<9;i++){
+	for(int i=0;i<8;i++){
 		if(i!=9){
 			worlds[i].draw();
 		}
@@ -65,79 +60,74 @@ void idle (void)
 		frames = 0;
 	}
 
-	for (int i = 0; i<10; i++) {
+	for (int i = 0; i<9; i++) {
 		worlds[i].update();
 	}
 
+	spacecraft->update();
+	
 	glutPostRedisplay();
 }
 
-void init (void)
+void init(void)
 {
 
-	glEnable( GL_TEXTURE_2D );
-	glEnable( GL_DEPTH_TEST );
-	glClearColor( 0.0, 0.0, 0.0, 0.0 );
+	glEnable(GL_TEXTURE_2D);
+	glEnable(GL_DEPTH_TEST);
+	glClearColor(0.0, 0.0, 0.0, 0.0);
 
-	glEnable(GL_DITHER);
 	glHint(GL_PERSPECTIVE_CORRECTION_HINT, GL_FASTEST);
 	glHint(GL_POLYGON_SMOOTH_HINT, GL_FASTEST);
 
-	pos[0]=0;
-	pos[1]=0;
-	pos[2]=-10;
-
-	dir[0]=0;
-	dir[1]=0;
-	dir[2]=1;
-
-	sceneCam.setPos(82.479195,251.148621,-534.879395);
-	sceneCam.setDirVec(-0.145343,-0.328069,0.933399);
-	sceneCam.setPivot(0.000000,0.000000,0.000000);
+	sceneCam.setPos(82.479195, 251.148621, -534.879395);
+	sceneCam.setDirVec(-0.145343, -0.328069, 0.933399);
+	sceneCam.setPivot(0.000000, 0.000000, 0.000000);
 	sceneCam.fov = 45;
 	sceneCam.near_plane = 1;
 	sceneCam.far_plane = 2048;
-	lightCam.setPos(-100.122673, 36.477776, 325.243073);
-	lightCam.setDirVec(0.588986, 0.000000, -0.808143);
+	lightCam.setPos(337.310303, 36.482025, -31.505600);
+	lightCam.setDirVec(-0.999485, 0.000000, 0.032080);
 	lightCam.setPivot(0.000000, 0.000000, 0.000000);
 	lightCam.fov = 45;
 	lightCam.near_plane = 1;
 	lightCam.far_plane = 10000;
-	currentCamera = &sceneCam;
+	currentCamera = &lightCam;
 
-	glClearColor (0.2, 0.2, 0.2, 0.0);
+	glClearColor(0.2, 0.2, 0.2, 0.0);
 
 	glEnable(GL_LIGHTING);
 	glEnable(GL_LIGHT0);
 
-	GLfloat diffusel0[4]	= { 1.0f, 1.0f, 1.0f, 1.0f };
-	GLfloat ambientl0[4]	= { 1.0f, 1.0f, 1.0f, 1.0f };
-	GLfloat specularl0[4]	= { 1.0f, 1.0f, 1.0f, 1.0f };
-	GLfloat position[4]		= { 0.0f, 1.0f, 0.0f, 0.0f };
+	GLfloat diffusel0[4] = { 1.0f, 1.0f, 1.0f, 1.0f };
+	GLfloat ambientl0[4] = { 1.0f, 1.0f, 1.0f, 1.0f };
+	GLfloat specularl0[4] = { 1.0f, 1.0f, 1.0f, 1.0f };
+	GLfloat position[4] = { 0.0f, 1.0f, 0.0f, 0.0f };
 
 	glLightfv(GL_LIGHT0, GL_AMBIENT, ambientl0);
 	glLightfv(GL_LIGHT0, GL_DIFFUSE, diffusel0);
 	glLightfv(GL_LIGHT0, GL_SPECULAR, specularl0);
 	glLightfv(GL_LIGHT0, GL_POSITION, position);
 
-	global_ambient			= new GLfloat[4];
-	global_ambient[0]		= 1.0f;
-	global_ambient[1]		= 1.0f;
-	global_ambient[2]		= 1.0f;
-	global_ambient[3]		= 1.0f;
-	glLightModelfv( GL_LIGHT_MODEL_AMBIENT, global_ambient );
-	glLightModeli( GL_LIGHT_MODEL_LOCAL_VIEWER, GL_TRUE );
-	glLightModeli( GL_LIGHT_MODEL_TWO_SIDE, GL_TRUE );
+	global_ambient = new GLfloat[4];
+	global_ambient[0] = 1.0f;
+	global_ambient[1] = 1.0f;
+	global_ambient[2] = 1.0f;
+	global_ambient[3] = 1.0f;
+	glLightModelfv(GL_LIGHT_MODEL_AMBIENT, global_ambient);
+	glLightModeli(GL_LIGHT_MODEL_LOCAL_VIEWER, GL_TRUE);
+	glLightModeli(GL_LIGHT_MODEL_TWO_SIDE, GL_TRUE);
 
 	worlds = new World[10];
 
-	for(int i=0;i<10;i++){
-		worlds[i].assign(i);
+	glPushMatrix();
+	{
+		for (int i = 0; i < 10; i++) {
+			worlds[i].assign(i);
+		}
 	}
+	glPopMatrix();
 
 	spacecraft = new Spacecraft();
-
-	spacecraft->updatePos(-60.775082, 26.483852, 340.667511);
 }
 
 void mouse( int button, int state, int x, int y)
@@ -204,6 +194,10 @@ void motion(int x, int y)
 
 void keys (unsigned char key, int x, int y)
 {
+
+	float position[3];
+	float direccion[3];
+
 	switch (key)
 	{
 		case 'c':
@@ -229,17 +223,17 @@ void keys (unsigned char key, int x, int y)
 			lightCam.setPos(-38.195210,-8.573028,4523.293457);
 			lightCam.setDirVec(0.033034,-0.000000,-0.999454);
 			lightCam.setPivot(0.000000,0.000000,0.000000);
-		break;
+			break;
 		case 'U':
 			lightCam.setPos(-98.420212,-8.573028,2884.414551);
 			lightCam.setDirVec(0.067873,-0.000000,-0.997694);
 			lightCam.setPivot(0.000000,0.000000,0.000000);
-		break;
+			break;
 		case 'J':
 			lightCam.setPos(-51.212345,-8.572891,1455.189941);
 			lightCam.setDirVec(0.033013,0.000000,-0.999455);
 			lightCam.setPivot(0.000000,0.000000,0.000000);
-		break;
+			break;
 		case 'S':
 			lightCam.setPos(-30.083939,-6.972890,815.540222);
 			lightCam.setDirVec(0.033013,0.000000,-0.999455);
@@ -266,13 +260,9 @@ void keys (unsigned char key, int x, int y)
 			lightCam.setPivot(0.000000,0.000000,0.000000);
 			break;
 	}
-
-	lightCam.Coord();
 }
 
 void special(int key, int x, int y) {
-	float x1, z1;
-	float* res = new float[3];
 
 	switch (key)
 	{
@@ -284,9 +274,11 @@ void special(int key, int x, int y) {
 		break;
 	case GLUT_KEY_LEFT:
 		lightCam.rotate(2, 0, 1, 0);   // yTrans += (y - mouseCoords[1]) * 0.02;
+		angle -= 2;
 		break;
 	case GLUT_KEY_RIGHT:
 		lightCam.rotate(-2, 0, 1, 0);   // yTrans += (y - mouseCoords[1]) * 0.02;
+		angle += 2;
 		break;
 	}
 }

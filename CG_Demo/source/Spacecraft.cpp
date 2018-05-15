@@ -3,7 +3,6 @@
 
 Spacecraft::Spacecraft()
 {
-	angle = 45;
 	// ==== POSITION ====
 	pos[0] = 0;
 	pos[1] = 0;
@@ -17,6 +16,7 @@ Spacecraft::Spacecraft()
 	spacecraft = glmReadOBJ(const_cast<char *>("assets/Ship/Ship.obj"));
 	glmFacetNormals(spacecraft);
 	glmVertexNormals(spacecraft, 45.0f);
+	angle = 2;
 }
 
 
@@ -45,16 +45,16 @@ void Spacecraft::updateAngle(float p)
 
 void Spacecraft::update()
 {
+	angle += 0.1f;
 }
 
 void Spacecraft::draw()
 {
 	glPushMatrix();
 	{
-		glTranslatef(pos[0], pos[1], pos[2]);
-		glRotatef(190, 0, 1, 0);
+		glTranslatef(300, 25, -30);
+		glRotatef(angle, 0, 1, 0);
 		glScalef(20, 20, 20);
-		glRotatef(45, 0, 1, 0);
 		glmDraw(spacecraft, GLM_SMOOTH | GLM_TEXTURE);
 	}
 	glPopMatrix();

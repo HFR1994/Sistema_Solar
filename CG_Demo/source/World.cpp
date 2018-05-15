@@ -27,7 +27,7 @@ void World::draw() {
 
 	float escala = 1;
 	float radio = 150;
-
+	float posLight0[4] = { 0.0f,10.0f,-10.0f,10.0f };
 
 	glPushMatrix();
 	{
@@ -78,7 +78,7 @@ void World::draw() {
 				pos[1]=-10.3f;
 				pos[2]=cos(angle/1.0f *(pi / 180))*0.99986f*radio;
 
-				//glTranslatef(0.0,-10.15f, 199.97199999999998)
+				//glTranslatef(0.0, -10.15f, 199.97199999999998);
 				glTranslatef(pos[0],pos[1],pos[2]);
 				glRotatef(angle2/1.0f, 0, 1, 0);
 				glScalef(0.00915f*escala,0.00915f*escala,0.00915f*escala);
@@ -180,6 +180,7 @@ void World::draw() {
 				glTranslatef(0, -50.0f, 0);
 				glRotatef(angle/10,0,1,0);
 				glScalef(1,1,1);
+				glLightfv(GL_LIGHT0, GL_POSITION, posLight0);
 				break;
 			case 9: //LUNA
 
@@ -196,8 +197,8 @@ void World::draw() {
 }
 
 void World::update() {
-	angle += .01;
-	angle2 += .02;
+	angle += 0.01;
+	angle2 += 0.02f;
 	x = cos(angle*(3.14 / 180))*6.0f;
 	y = sin(angle*(3.14 / 180))*2.3f;
 }

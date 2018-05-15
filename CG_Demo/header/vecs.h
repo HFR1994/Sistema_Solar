@@ -32,6 +32,7 @@ float angTwoVecs(float *vec1, float *vec2);
 
 void printVec(char *,float *);
 
+
 // Quaternions
 #define quatMagnitude(quat) sqrt(quat[0] * quat[0] + quat[1] * quat[1] + quat[2] * quat[2] + quat[3] * quat[3])
 void axisToQuat(float *axis, float ane, float *quat);
