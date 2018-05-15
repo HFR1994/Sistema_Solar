@@ -1,0 +1,9 @@
+newmtl MercurySG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd mercurymap.tga
+Ni 1.00
+Ks 0.16 0.16 0.16
+Ns 88.51

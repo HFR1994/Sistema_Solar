@@ -1,0 +1,18 @@
+newmtl RingsSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.88 0.88 0.88
+Tf 0.56 0.56 0.56
+map_Kd saturnringcolor.tga
+Ni 1.00
+Ks 0.16 0.16 0.16
+Ns 88.51
+newmtl SaturnSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd saturnmap.tga
+Ni 1.00
+Ks 0.16 0.16 0.16
+Ns 88.51
